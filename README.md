@@ -46,7 +46,7 @@ Install dependencies:
 
 Additional requirements (if not already installed):
 
-- pip install torch --index-url https://download.pytorch.org/whl/cu121
+- pip install torch --index-url https://download.pytorch.org/whl/cu129
 
 (adjust the PyTorch version depending on your CUDA/CPU setup)
 
@@ -163,4 +163,5 @@ Each review is transformed into structured JSON with review text, aspects, and s
 * Add support for multilingual reviews.
 * Improve aspect phrase grouping (e.g., "display" and "screen" → same aspect).
 * Build an interactive dashboard for real-time review insights.
+
 
