@@ -4,7 +4,7 @@
 
 
 
-#### **📌 Project Objective**
+### **📌 Project Objective**
 
 
 
@@ -16,25 +16,23 @@ This helps businesses and analysts understand customer opinions at a more granul
 
 
 
-#### **📂 Project Structure**
+### **📂 Project Structure**
 
 
 
-project\_root/
+project\_root
 
-│
+├── flipkart\_reviews\_dataset.csv         # Raw dataset containing product reviews
 
-├── flipkart\_reviews\_dataset.csv     # Raw dataset containing product reviews
+├── analysis.ipynb                         # Jupyter notebook for analysis \& structured outputs
 
-├── analysis.ipynb                   # Jupyter notebook for analysis \& structured outputs
+├── aspect\_sentiment\_pipeline.py         # Pipeline function for aspect extraction \& sentiment classification
 
-├── aspect\_sentiment\_pipeline.py     # Pipeline function for aspect extraction \& sentiment classification
-
-├── README.txt                       # Project documentation
+├── README.txt                             # Project documentation
 
 
 
-#### **⚙️ Requirements**
+### **⚙️ Requirements**
 
 
 
@@ -44,23 +42,21 @@ Make sure you have Python 3.9+ installed.
 
 Install dependencies:
 
-pip install pandas transformers pyabsa
-
-
+- pip install pandas transformers pyabsa
 
 Additional requirements (if not already installed):
 
-pip install torch --index-url https://download.pytorch.org/whl/cu121
+- pip install torch --index-url https://download.pytorch.org/whl/cu121
 
 (adjust the PyTorch version depending on your CUDA/CPU setup)
 
 
 
-#### **🚀 How to Run the Project**
+### **🚀 How to Run the Project**
 
 
 
-##### 1\. Explore in Jupyter Notebook
+#### 1\. Explore in Jupyter Notebook
 
 
 
@@ -74,7 +70,7 @@ Open analysis.ipynb to:
 
 
 
-##### 2\. Run the Pipeline Script
+#### 2\. Run the Pipeline Script
 
 You can use the provided pipeline function directly:
 
@@ -116,7 +112,7 @@ aspect\_sentiment\_results.json
 
 
 
-#### **💡Important Note**
+### **💡Important Note**
 
 
 
@@ -129,7 +125,7 @@ For better results, it is strongly recommended to provide a cleaned dataset (rem
 
 
 
-#### **📊 Output Format**
+### **📊 Output Format**
 
 
 
@@ -149,7 +145,7 @@ Each review is transformed into structured JSON with review text, aspects, and s
 
 
 
-#### **💡 Notes**
+### **💡 Notes**
 
 
 
@@ -160,10 +156,11 @@ Each review is transformed into structured JSON with review text, aspects, and s
 
 
 
-#### **🔮 Future Improvements**
+### **🔮 Future Improvements**
 
 
 
 * Add support for multilingual reviews.
 * Improve aspect phrase grouping (e.g., "display" and "screen" → same aspect).
 * Build an interactive dashboard for real-time review insights.
+
