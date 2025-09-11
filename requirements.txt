@@ -1,0 +1,5 @@
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu129  # if using CUDA
+transformers
+pyabsa
+pandas
+regex
