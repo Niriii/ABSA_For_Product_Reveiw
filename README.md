@@ -165,3 +165,15 @@ Each review is transformed into structured JSON with review text, aspects, and s
 * Build an interactive dashboard for real-time review insights.
 
 
+
+### **🧑‍💻 Author**
+Niranjan N 
+
+💼 Early data professional
+
+📧 Contact: niriyadav551@gmail.com
+
+
+
+
+
